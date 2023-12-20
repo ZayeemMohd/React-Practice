@@ -1,0 +1,22 @@
+.NavBar{
+    height:  70px;
+    width: 1440px;
+    background-color: #242424;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+}
+
+.NavSearchBar{
+    height: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.MagnifineSearch{
+    padding-left: 20px;
+    border: 1px solid #000;
+    margin: 10px;
+}

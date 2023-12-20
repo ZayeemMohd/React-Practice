@@ -1,0 +1,18 @@
+.Product{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    padding: 15px 0 15px 0;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+.ProductImage{
+    margin: auto;
+    color: white;
+}
+
+.ProductTitle, .ProductDescription{
+    margin: 1px;
+    /* color: aquamarine; */
+}

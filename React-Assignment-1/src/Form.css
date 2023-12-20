@@ -1,0 +1,26 @@
+h3{
+    color : #42A7C2;
+    font-size: 25px;
+    position: relative;
+    left: -119px;
+    top: 0px;
+}
+
+/* .LoginDiv{
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+} */
+
+/* .LoginText{
+    background-color: blue;
+} */
+
+h4{
+    font-weight: 200;
+    color: #545454;
+    font-size: 11px;
+    text-align: left;
+    margin-left: 37px;
+    margin-top: 80px;
+}

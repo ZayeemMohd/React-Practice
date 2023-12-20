@@ -1,0 +1,118 @@
+.Container{
+    height: 390px;
+    width: 260px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.Masuk{
+    color: #515151;
+    margin: auto;
+    grid-column: 0/1;
+    grid-row: 0/1;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.daftar{
+    grid-column: 4/5;
+    grid-row: 0/1;
+    color: #0098EA;
+    font-size: 15px;
+    margin: auto;
+}
+
+.UserName{
+    background-color: #fff;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    font-size: 10px;
+    height: 30px;
+    padding-left:10px ;
+}
+
+.Password{
+    background-color: #fff;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    font-size: 10px;
+    height: 30px;
+    padding-left:10px ;
+}
+
+.MasukBtn{
+    background-color: #D0D0D0;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: small;
+    text-transform: capitalize;
+    height: 35px;
+    border-radius: 2px;
+}
+
+.Lupa{
+    grid-column: 1/5;
+    grid-row: 5/6;
+    color: #515151;
+    font-weight: light;
+    font-size: 9px;
+    text-align: left;
+}
+
+.Klik{
+    color: #0098EA;
+}
+
+.atau{
+    color: #D0D0D0;;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    background-color: white;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.Google{
+    background-color: #fff;
+    color: #505050;
+    border: 1px solid #D0D0D0;
+    grid-column: 1 / span 4;
+    grid-row: 7/8;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Facebook{
+    background-color: #fff;
+    border: 1px solid #D0D0D0;
+    color: #505050;
+    grid-column: 1/5;
+    grid-row: 8/9;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+button img{
+    scale:0.2;
+    padding:0;
+    margin: 0;
+}
+button p{
+padding:0;
+margin: 0;
+}
+

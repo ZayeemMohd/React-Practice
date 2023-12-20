@@ -1,0 +1,8 @@
+.LandingTab{
+    background-color: black;
+    display: grid;
+    margin: 30px 0;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    border-radius: 15px;
+}
