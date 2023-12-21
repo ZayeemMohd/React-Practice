@@ -1,4 +1,4 @@
-import './NavBar.css'
+import '../componentsStyles/NavBar.css'
 // import logo from '../assets/onion logo.png'
 
 function handleClickWarning(event){

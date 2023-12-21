@@ -1,4 +1,4 @@
-import './LandingTab.css'
+import '../componentsStyles/LandingTab.css'
 import LandingElems from "./LandingElems"
 
 

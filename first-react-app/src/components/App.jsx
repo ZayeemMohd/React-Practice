@@ -1,10 +1,12 @@
-import "./App.css";
+import "../componentsStyles/App.css";
 import NavBar from "./NavBar";
 import Title from "./Title.jsx";
 import Intro from "./Intro";
 import LandingTab from "./LandingTab";
 import ProductTab from "./ProductTab";
 import Msg from "./Msg";
+import HackerSection from "./HackerSection";
+
 
 function App() {
   let ProductsList = [
@@ -48,6 +50,7 @@ function App() {
       <Title />
       <ProductTab ProductsList={ProductsList} />
       <Msg userName={"Hacker"} textColor={"green"}/>
+      <HackerSection />
       <br />
     </>
   );
